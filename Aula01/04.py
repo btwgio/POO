@@ -1,0 +1,5 @@
+base = int(input('Informe o valor da base do retângulo: \n'))
+alt = int(input('Informe o valor da altura do retângulo: \n'))
+print(f'A área do retângulo é {base*alt :.2f}\n')
+print(f'O perímetro do retângulo é {2*(base+alt):.2f}\n')
+print(f'A diagonal do retângulo é {(((base**2)+(alt**2))**0.5):.2f}\n')
